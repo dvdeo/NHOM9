@@ -6,5 +6,12 @@ namespace NHOM9
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("first box");
+            MessageBox.Show("Hello World!");
+
+        }
     }
 }
